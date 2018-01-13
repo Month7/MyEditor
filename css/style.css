@@ -1,0 +1,38 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #00AFF0;
+    height: 50px;
+}
+.editor{
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 900px;
+    height: 500px;
+}
+/*工具栏*/
+.toolbar{
+    background: #00AFF0;
+    height: 50px;
+    display: flex;
+}
+.toolbar div:hover{
+    background: #04C3E0;
+}
+.toolbar img{
+    height: 40px;
+    width: 40px;
+}
+#words{
+    width: 100%;
+    height: 200px;;
+}
+/*编辑区*/
+.text{
+    width: 100%;
+    height: 450px;
+}
